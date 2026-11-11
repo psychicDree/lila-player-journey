@@ -1,0 +1,75 @@
+{
+  "cleaning": {
+    "raw_rows": 89104,
+    "duplicate_rows_dropped": 1505,
+    "numeric_id_files_with_human_telemetry": 17,
+    "numeric_ids_with_human_telemetry": [
+      "1379",
+      "1402",
+      "1429"
+    ],
+    "uuid_files_with_bot_telemetry": 0,
+    "matches_split_across_folders": 1,
+    "points_outside_minimap": 0,
+    "clean_rows": 87599
+  },
+  "events": {
+    "Loot": 11632,
+    "BotKill": 2376,
+    "BotKilled": 697,
+    "KilledByStorm": 39,
+    "Kill": 3,
+    "Killed": 3
+  },
+  "unique_humans": 248,
+  "unique_bot_ids": 92,
+  "matches": 796,
+  "per_map": {
+    "AmbroseValley": {
+      "human_journeys": 568,
+      "matches": 566,
+      "outcomes": {
+        "bot": 297,
+        "alive": 252,
+        "storm": 17,
+        "pvp": 2
+      },
+      "outcome_pct": {
+        "bot": 52.3,
+        "alive": 44.4,
+        "storm": 3.0,
+        "pvp": 0.4
+      }
+    },
+    "GrandRift": {
+      "human_journeys": 59,
+      "matches": 59,
+      "outcomes": {
+        "alive": 29,
+        "bot": 24,
+        "storm": 5,
+        "pvp": 1
+      },
+      "outcome_pct": {
+        "alive": 49.2,
+        "bot": 40.7,
+        "storm": 8.5,
+        "pvp": 1.7
+      }
+    },
+    "Lockdown": {
+      "human_journeys": 171,
+      "matches": 171,
+      "outcomes": {
+        "bot": 80,
+        "alive": 74,
+        "storm": 17
+      },
+      "outcome_pct": {
+        "bot": 46.8,
+        "alive": 43.3,
+        "storm": 9.9
+      }
+    }
+  }
+}

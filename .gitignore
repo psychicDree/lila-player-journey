@@ -1,0 +1,9 @@
+# raw production telemetry stays out of git (see README "Rebuilding the data")
+raw/
+.venv/
+__pycache__/
+web/node_modules/
+web/dist/
+.DS_Store
+.vercel
+*.tsbuildinfo
