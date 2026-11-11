@@ -31,7 +31,7 @@ A browser tool for level designers that turns five days of LILA BLACK telemetry 
 |---|---|
 | Data pipeline | Python 3.11+, pyarrow, pandas, Pillow |
 | Frontend | Vite 5, React 18, TypeScript, Canvas 2D (no other runtime dependencies) |
-| Hosting | Vercel, as a static site ([vercel.json](vercel.json)) |
+| Hosting | Vercel, as a static site ([web/vercel.json](web/vercel.json)) |
 
 ## Run locally
 
@@ -63,7 +63,7 @@ The pipeline prints a data-quality report (duplicates dropped, bot/human ID anom
 
 ## Deploying
 
-The repo root has a `vercel.json` with install/build commands and the `web/dist` output. To deploy: import the GitHub repo in Vercel and keep the defaults, or run `npx vercel --prod` from the repo root. No other configuration is needed.
+Import the GitHub repo in Vercel and set **Root Directory** to `web`. Vercel detects Vite and uses `npm run build` with output `dist`. `web/vercel.json` only adds cache headers for the data and minimap files. No environment variables are needed. Every push to `main` redeploys.
 
 ## Project structure
 
