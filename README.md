@@ -4,6 +4,8 @@ A browser tool for level designers that turns five days of LILA BLACK telemetry 
 
 **Live tool:** https://lila-player-journey-manish.vercel.app
 
+**Video walkthrough (2 min):** [docs/walkthrough.mp4](docs/walkthrough.mp4)
+
 | Doc | What's in it |
 |---|---|
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Stack, data flow, coordinate mapping, assumptions, trade-offs |
@@ -82,6 +84,8 @@ docs/img/            screenshots used in the docs
 ```
 
 ## Walkthrough
+
+The [video walkthrough](docs/walkthrough.mp4) covers every feature in about two minutes. The same steps in writing:
 
 1. **Start in overview.** Pick a map in the sidebar. The top bar sums up the current filter (matches, journeys, kills, deaths, storm deaths, loot).
 2. **Read the map.** Choose a heatmap in *Layers & legend* (e.g. *Deaths*). Use the events *none* link to clear markers and see the heatmap alone, or untick *Include bot journeys* to see the human experience only.
