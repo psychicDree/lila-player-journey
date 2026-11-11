@@ -85,11 +85,4 @@ docs/img/            screenshots used in the docs
 
 ## Walkthrough
 
-The [video walkthrough](docs/walkthrough.mp4) covers every feature in about two minutes. The same steps in writing:
-
-1. **Start in overview.** Pick a map in the sidebar. The top bar sums up the current filter (matches, journeys, kills, deaths, storm deaths, loot).
-2. **Read the map.** Choose a heatmap in *Layers & legend* (e.g. *Deaths*). Use the events *none* link to clear markers and see the heatmap alone, or untick *Include bot journeys* to see the human experience only.
-3. **Narrow down.** Toggle dates, tick *Only matches with 2+ tracked journeys*, and sort the list (e.g. *Storm deaths*).
-4. **Replay a match.** Click a row, or a marker on the map. The view zooms to the action. Press ▶ (or `Space`) and change speed; ⏭ jumps to the next fight or death.
-5. **Follow one player.** Click a journey under *Journeys in match* to dim everyone else. Hover markers and player heads for details.
-6. **Share.** Copy the URL, which keeps the map, match and heatmap.
+[Watch the video walkthrough](docs/walkthrough.mp4) (2 min). It covers every feature: the overview, humans vs bots, event markers, zoom and hover details, all heatmaps, map and date filters, match playback, isolating a player, and shareable views.
