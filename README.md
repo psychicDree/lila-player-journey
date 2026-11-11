@@ -2,7 +2,7 @@
 
 A browser tool for level designers that turns five days of LILA BLACK telemetry into something you can look at: player paths on the real minimap, kills, deaths, loot and storm deaths, match replay, and heatmaps.
 
-**Live tool:** _deployment URL goes here_
+**Live tool:** https://lila-player-journey-manish.vercel.app
 
 | Doc | What's in it |
 |---|---|
